@@ -40,3 +40,43 @@ public class Main {
     }
 }
 ```
+
+### Libs:
+#### Maven
+```xml
+<dependencies>
+    <!-- JSON library -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20210307</version> <!-- Sürüm numarasını güncelleyebilirsiniz -->
+    </dependency>
+
+    <!-- SnakeYAML library -->
+    <dependency>
+        <groupId>org.yaml</groupId>
+        <artifactId>snakeyaml</artifactId>
+        <version>1.28</version> <!-- Sürüm numarasını güncelleyebilirsiniz -->
+    </dependency>
+
+    <!-- Jackson library (for YAML) -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.13.0</version> <!-- Sürüm numarasını güncelleyebilirsiniz -->
+    </dependency>
+</dependencies>
+```
+#### Gradle:
+```groovy
+dependencies {
+    // JSON library
+    implementation 'org.json:json:20210307' // Sürüm numarasını güncelleyebilirsiniz
+
+    // SnakeYAML library
+    implementation 'org.yaml:snakeyaml:1.28' // Sürüm numarasını güncelleyebilirsiniz
+
+    // Jackson library (for YAML)
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0' // Sürüm numarasını güncelleyebilirsiniz
+}
+```
