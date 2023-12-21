@@ -172,17 +172,4 @@ public class ConfigManager {
                 break;
         }
     }
-
-    public static void main(String[] args) {
-        // Örnek kullanım
-        ConfigType configType = ConfigType.JSON;
-        String key = "username";
-
-        // Config klasörü ve dosyası oluşturulacak
-        setConfig(configType, key, "john_doe");
-
-        // Veri çekme
-        String username = getString(key, configType);
-        System.out.println("Username: " + username);
-    }
 }
